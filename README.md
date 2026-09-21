@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/flyoobe-readme-banner.png" alt="Flyoobe — A better way to set up Windows">
+  <img src="assets/flyoobe-readme-banner.png" alt="Flyoobe: A better way to set up Windows">
 </p>
 
 # Flyoobe
@@ -7,18 +7,19 @@
 **Flyoobe is a focused Windows setup companion for people who want to make deliberate choices instead of clicking through somebody else's defaults.**
 
 > [!IMPORTANT]
-> **Flyoobe 3 has begun rolling out, and the project has changed substantially.** The application was rebuilt around a smaller, cleaner core. The refactored 3.x source is still being prepared for publication, so the source currently visible in this repository represents the previous generation. It will be replaced as soon as the new structure is ready to be maintained in public—not merely uploaded in a hurry.
+> **Flyoobe 3 has begun rolling out, and the project has changed substantially.** The application was rebuilt around a smaller, cleaner core. The refactored 3.x source is still being prepared for publication, so the source currently visible in this repository represents the previous generation. It will be replaced as soon as the new structure is ready to be maintained in public, not merely uploaded in a hurry.
 
 [Download the latest release](https://github.com/builtbybel/Flyoobe/releases/latest) · [Read the changelog](CHANGELOG.md) · [Explore the documentation](docs/README.md)
 
-## Downloads — choose the tool, not the biggest name
+## Downloads: choose the tool, not the biggest name
 
 | Version | Best for | What you get | Download |
 |---|---|---|---|
-| **Flyoobe 3** — current generation | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | [Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest) |
-| **Flyby11 Classic** — legacy | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | [Download Flyby11 Classic 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip) |
+| **Flyoobe 3** (current) | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | [Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest) |
+| **Flyoobe 2.4** (previous) | Keeping the former all-in-one OOBE and upgrade toolbox | The previous Flyoobe application with its original customization, debloating and upgrade workflow | [Download Flyoobe 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/FlyoobeApp.zip) |
+| **Flyby11 Classic** (legacy) | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | [Download Flyby11 Classic 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip) |
 
-If all you need is the classic upgrade, Flyby11 can still be enough. It is no longer actively maintained, though. For the supported direction of the project—and for anything beyond getting through the upgrade door—use Flyoobe. It includes the upgrade path where it makes sense, then stays around for the part Flyby11 was never meant to solve: setting up Windows afterwards.
+Flyoobe 2.4 is the previous full application; Flyby11 Classic is the much smaller upgrade-only tool. Both remain available for people who deliberately need the old workflow, but neither represents active development. Use the current Flyoobe generation for the supported direction of the project and for anything beyond getting through the upgrade door.
 
 ## How a small bypass became Flyoobe
 
@@ -44,7 +45,7 @@ Flyoobe 3 treats Windows setup as a short, understandable review instead of a ma
 - Extend the post-install workflow with optional, local **Setup Actions**.
 - Open the Windows upgrade path when the machine and scenario call for it.
 
-The interface intentionally uses native Windows controls. It is modern where that helps, but it borrows some clarity, colour and friendliness from Windows 7—the last Windows version that seemed to know where everything lived.
+The interface intentionally uses native Windows controls. It is modern where that helps, but it borrows some clarity, colour and friendliness from Windows 7, the last Windows version that seemed to know where everything lived.
 
 ## Current repository status
 
@@ -61,7 +62,7 @@ This temporary split is intentional. A large refactor deserves a source tree tha
 
 ## Optional Setup Actions
 
-Setup Actions add small PowerShell-based jobs without turning Flyoobe itself into a collection of hard-coded utilities. Actions can provide descriptions, selectable commands, live output and—in explicitly approved cases—recipe integration.
+Setup Actions add small PowerShell-based jobs without turning Flyoobe itself into a collection of hard-coded utilities. Actions can provide descriptions, selectable commands, live output and recipe integration in explicitly approved cases.
 
 They are optional and disabled by default.
 
@@ -88,6 +89,6 @@ Hardware-check workarounds do not turn unsupported hardware into supported hardw
 
 ## Support development
 
-Flyoobe is built independently and shared freely. If it saved you time—or saved a good PC from an unnecessarily early retirement—you can [support the project here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG).
+Flyoobe is built independently and shared freely. If it saved you time or saved a good PC from an unnecessarily early retirement, you can [support the project here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG).
 
 Thank you for testing, reporting the strange corners of Windows setup, and giving this little bee far more places to fly than I expected when Flyby11 began.

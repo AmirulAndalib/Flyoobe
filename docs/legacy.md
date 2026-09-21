@@ -6,7 +6,7 @@ Flyoobe has had three distinct chapters. Keeping them named correctly matters mo
 
 Flyby11 was the original focused upgrader. Its job was to help Windows 10 machines start a Windows 11 upgrade when Microsoft's normal setup path rejected otherwise usable hardware.
 
-The complete classic application—including its native CPU compatibility helper—is preserved under [`legacy/Flyby11`](../legacy/Flyby11). It is the origin of this repository, but it is no longer actively maintained. Windows setup behavior can change, so old binaries and methods should not be treated as current guidance.
+The complete classic application, including its native CPU compatibility helper, is preserved under [`legacy/Flyby11`](../legacy/Flyby11). It is the origin of this repository, but it is no longer actively maintained. Windows setup behavior can change, so old binaries and methods should not be treated as current guidance.
 
 ## Flyoobe 2
 

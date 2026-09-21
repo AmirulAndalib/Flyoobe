@@ -1,10 +1,10 @@
 # Changelog
 
-## Flyoobe 3.01 — Native controls, Setup Actions and a little Windows 7 nostalgia
+## Flyoobe 3.01: Native controls, Setup Actions and a little Windows 7 nostalgia
 
 Flyoobe 3.0 may have been only a day old when this work started, but the release itself was the result of a much longer rebuild. I am unusually motivated to keep pushing it because the new foundation already surpasses the previous version by miles.
 
-This is still the same project that grew out of Flyby11—just with a clearer idea of what it wants to be. Flyby11 helped Windows get onto a PC; Flyoobe now helps the PC feel like yours afterwards.
+This is still the same project that grew out of Flyby11, just with a clearer idea of what it wants to be. Flyby11 helped Windows get onto a PC; Flyoobe now helps the PC feel like yours afterwards.
 
 The corresponding refactored source will be published after the remaining cleanup. A source dump is easy. A source tree another human can navigate is the part worth finishing.
 
@@ -12,7 +12,7 @@ The corresponding refactored source will be published after the remaining cleanu
 
 - **[Added]** Support for local PowerShell-based Setup Actions.
 - **[Added]** Descriptions, selectable commands and optional action choices.
-- **[Added]** Live script output, because a frozen window is not a progress indicator—it is a trust exercise.
+- **[Added]** Live script output, because a frozen window is not a progress indicator. It is a trust exercise.
 - **[Added]** Recipe-safe actions that run during explicit `Prepare` or `Finish` phases.
 - **[Added]** An action importer and direct access to the local Actions folder.
 - **[Added]** Documentation for writing, reviewing and sharing actions.
@@ -30,7 +30,7 @@ In other words: I added a door without rebuilding the entire house around everyo
 - **[Changed]** Added familiar blue page headings, white content areas and native grey command footers.
 - **[Changed]** Added a subtle Windows 7-inspired blue-to-green accent.
 - **[Changed]** Simplified the browser page into a lighter vertical workflow.
-- **[Changed]** Kept the interface based on standard Windows controls—no custom skin pretending to be an operating system.
+- **[Changed]** Kept the interface based on standard Windows controls. There is no custom skin pretending to be an operating system.
 
 The older I get, the more I appreciate old software. Apparently nostalgia is just usability after it has passed a sufficiently long code review.
 
