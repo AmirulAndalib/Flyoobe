@@ -18,16 +18,45 @@
 
 ## Official downloads
 
-> [!TIP]
-> **Most people should choose Flyoobe 3.** It is the current generation and the version receiving active development. Older downloads remain available for specific legacy workflows.
+<p align="center">
+  <a href="https://github.com/builtbybel/Flyoobe/releases/latest">
+    <img width="100%" src="assets/flyoobe-3-release-banner.png" alt="Download Flyoobe 3">
+  </a>
+</p>
 
-| Version | Best for | What you get | Download |
-|---|---|---|---|
-| **Flyoobe 3** (current) | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | **[⬇️ Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest)** |
-| **Flyoobe 2.4** (previous) | Keeping the former all-in-one OOBE and upgrade toolbox | The previous Flyoobe application with its original customization, debloating and upgrade workflow | **[⬇️ Download Flyoobe 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/FlyoobeApp.zip)** |
-| **Flyby11 Classic** (legacy) | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | **[⬇️ Download Flyby11 Classic](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip)** |
+<h3 align="center">Flyoobe 3</h3>
 
-Flyoobe 2.4 is the previous full application; Flyby11 Classic is the much smaller upgrade-only tool. Both remain available for people who deliberately need the old workflow, but neither represents active development. Use the current Flyoobe generation for the supported direction of the project and for anything beyond getting through the upgrade door.
+<p align="center">
+  <a href="https://github.com/builtbybel/Flyoobe/releases/latest"><img src="https://img.shields.io/badge/CURRENT-Flyoobe_3-0078D4?style=for-the-badge&amp;logo=windows11&amp;logoColor=white" alt="Flyoobe 3 is current"></a>
+  <a href="https://github.com/builtbybel/Flyoobe/releases/latest"><img src="https://img.shields.io/badge/DOWNLOAD-LATEST-7B5CFA?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Download the latest release"></a>
+</p>
+
+<p align="center">
+  <strong>The current generation and the version receiving active development.</strong><br>
+  Set up Windows, review recommendations, choose apps, remove unwanted packages,<br>
+  reuse recipes and add optional Setup Actions from one focused application.
+</p>
+
+<p align="center"><strong><a href="https://github.com/builtbybel/Flyoobe/releases/latest">⬇️ Download the latest Flyoobe release</a></strong></p>
+
+<details>
+<summary><strong>Looking for an older version?</strong> Flyoobe 2.4 and Flyby11 Classic are still available.</summary>
+
+### Flyoobe 2.4
+
+The previous complete Flyoobe application with its original OOBE customization, debloating and upgrade workflow.
+
+**[⬇️ Download Flyoobe 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/FlyoobeApp.zip)**
+
+### Flyby11 Classic
+
+The small legacy tool for the familiar Windows 10 → 11 in-place upgrade on unsupported hardware. Choose this only when the classic upgrade workflow is all you need.
+
+**[⬇️ Download Flyby11 Classic](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip)**
+
+These versions remain available for deliberate legacy use, but neither represents active development.
+
+</details>
 
 ## How a small bypass became Flyoobe
 
