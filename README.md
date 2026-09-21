@@ -1,94 +1,93 @@
-# 🐝 Flyoobe (ex-Flyby11) – Windows Setup Assistant
+<p align="center">
+  <img src="assets/flyoobe-readme-banner.png" alt="Flyoobe — A better way to set up Windows">
+</p>
 
-<img width="2172" height="724" alt="IllustrationBranding-Visual-Flyoobe" src="https://github.com/user-attachments/assets/e89a91b4-dc90-4b7c-bc58-85d1a3281179" />
+# Flyoobe
 
+**Flyoobe is a focused Windows setup companion for people who want to make deliberate choices instead of clicking through somebody else's defaults.**
 
----
+> [!IMPORTANT]
+> **Flyoobe 3 has begun rolling out, and the project has changed substantially.** The application was rebuilt around a smaller, cleaner core. The refactored 3.x source is still being prepared for publication, so the source currently visible in this repository represents the previous generation. It will be replaced as soon as the new structure is ready to be maintained in public—not merely uploaded in a hurry.
 
-## 📢 Quick Note for Returning Users
-**FlyOOBE is the natural evolution of Flyby11.**  
-The classic Flyby11 upgrader still exists and is included inside FlyOOBE,  
-plus it's also available as a **separate download** if you only want the minimal upgrade tool.
+[Download the latest release](https://github.com/builtbybel/Flyoobe/releases/latest) · [Read the changelog](CHANGELOG.md) · [Explore the documentation](docs/README.md)
 
-You can now **choose**:
+## Downloads — choose the tool, not the biggest name
 
-| Version | Purpose | Features | Download |
-|---------|---------|----------|----------|
-| **FlyOOBE** (New) | Upgrade + OOBE Toolkit | • Windows 10 → 11 upgrades<br>• OOBE customization<br>• Tweaks & Debloat<br>• Scriptable setup extensions | [⬇ Download FlyOOBE](https://github.com/builtbybel/FlyOOBE/releases/latest) |
-| **Flyby11** (Classic) | Upgrade Only | • Win10 → Win11 Inplace upgrade<br>• Hardware check bypass<br>• Minimal footprint | [⬇ Download Flyby11 Classic](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip) |
----
+| Version | Best for | What you get | Download |
+|---|---|---|---|
+| **Flyoobe 3** — current generation | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | [Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest) |
+| **Flyby11 Classic** — legacy | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | [Download Flyby11 Classic 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip) |
 
-## 🐝 Why FlyOOBE?
-Originally, **Flyby11** was a simple patcher to remove the restrictions stopping you from installing Windows 11 (24H2) on unsupported hardware.  
-Old PC? No TPM, no Secure Boot, unsupported CPU? Flyby11 let you install Windows 11 anyway.
+If all you need is the classic upgrade, Flyby11 can still be enough. It is no longer actively maintained, though. For the supported direction of the project—and for anything beyond getting through the upgrade door—use Flyoobe. It includes the upgrade path where it makes sense, then stays around for the part Flyby11 was never meant to solve: setting up Windows afterwards.
 
-After helping thousands upgrade, one thing became clear:  
-**Bypassing checks is only half the battle.**  
-We needed a **full setup solution** — one that respects user choices instead of Microsoft's defaults.
+## How a small bypass became Flyoobe
 
-**FlyOOBE** was the next step:  
-- Skip the fluff  
-- Remove the junk  
-- Take full control from first boot  
+This project started as **Flyby11**, a deliberately small answer to a very specific problem: perfectly usable PCs being stopped at the Windows 11 hardware checks.
 
-Because your PC should work for you, not the other way around.  
-FlyOOBE keeps the original idea alive and pushes it even further.
+Flyby11 helped people get through the installation door. But once they were inside, the more interesting questions began: Which defaults should stay? Which apps are useful? What should be removed? How can the same setup be repeated without turning the whole thing into an unreadable script?
 
----
+That became **Flyoobe**.
 
-No complicated steps.  
-**Just run the tool** (see ["Releases"](https://github.com/builtbybel/FlyOOBE/releases/latest)),  
-unpack if needed, and you'll be running Windows 11 on your “unsupported” machine in no time.  
-Think of it as sneaking through the back door without anyone noticing.
+Flyoobe 2 grew into an ambitious OOBE and upgrade toolbox. It proved the idea, but it also accumulated several ways of doing the same job. Flyoobe 3 is the reset: the useful ideas kept, the accidental complexity removed, and the workflow rebuilt around a simple overview of recommendations and personal choices.
 
----
+Apparently software grows up much like people do: it stops trying to impress everyone at once and develops strong opinions about sensible defaults and tidy folders.
 
-## 🛠 Technical Overview
-**FlyOOBE method:**
-- Uses Windows Server variant of setup → skips TPM, Secure Boot, CPU checks
-- Still installs **normal Windows 11**
-- ISO download/mount handled automatically (via [Fido script](https://github.com/pbatard/Fido))
-- Matches Microsoft’s own documented workaround for upgrading unsupported devices ([source](https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e))
+## What Flyoobe is now
 
----
+Flyoobe 3 treats Windows setup as a short, understandable review instead of a maze of tweak pages.
 
-## 💡 Why Keep FlyOOBE Alive?
-- **Upgrade freedom** – Don’t ditch a perfectly fine PC just because Microsoft says so  
-- **Eco-friendly** – Less e-waste from forced upgrades  
-- **Save money** – No need for new hardware if yours still works
+- Check the PC against transparent, file-based recommendations.
+- Separate real differences from choices that are simply personal.
+- Configure accounts, networking, browsers, apps, personalization and Windows Update from one setup flow.
+- Review and remove preinstalled apps only after confirmation.
+- Export repeatable recipes without embedding opaque code in them.
+- Extend the post-install workflow with optional, local **Setup Actions**.
+- Open the Windows upgrade path when the machine and scenario call for it.
 
----
+The interface intentionally uses native Windows controls. It is modern where that helps, but it borrows some clarity, colour and friendliness from Windows 7—the last Windows version that seemed to know where everything lived.
 
-## ⚠ Disclaimer
-Flyby11/FlyOOBE uses known, currently working methods to bypass Windows 11 24H2 restrictions.  
-**POPCNT requirement** cannot be bypassed — needed for Win11 24H2.  
-Introduced a compatibility checker in v2.3 to warn if unsupported.
+## Current repository status
 
----
+| Part | Status |
+|---|---|
+| Flyoobe 3 releases | Active |
+| Refactored Flyoobe 3 source | Being prepared; coming soon |
+| Source currently on the default branch | Previous Flyoobe generation |
+| Setup Actions | New optional extension model |
+| Flyby11 | Historical predecessor; retained but no longer actively maintained |
+| Flyoobe Extensions | Retired and replaced by Setup Actions |
 
-## 📚 FAQ
+This temporary split is intentional. A large refactor deserves a source tree that can be understood after the release-day coffee has worn off.
 
-<details>
-<summary>❓ Will my unsupported device still get Windows 11 updates?</summary>
+## Optional Setup Actions
 
-**Short answer:** Yes — for now. But there are no guarantees.
+Setup Actions add small PowerShell-based jobs without turning Flyoobe itself into a collection of hard-coded utilities. Actions can provide descriptions, selectable commands, live output and—in explicitly approved cases—recipe integration.
 
-Microsoft says: _"These devices aren't guaranteed to receive updates."_  
-📄 [Source – Microsoft Support](https://support.microsoft.com/en-us/windows/windows-11-on-devices-that-don-t-meet-minimum-system-requirements-0b2dc4a2-5933-4ad4-9c09-ef0a331518f1)
+They are optional and disabled by default.
 
-Reality: Most still get monthly security updates, but:
-- Likely no automatic major version upgrades
-- Future updates may fail if new hardware features are required
-- Microsoft could block updates anytime
+### Install the Actions asset
 
-Bottom line: Works today — but unsupported means you accept the risk. 😎
+1. Download the **Actions** asset from the [release page](https://github.com/builtbybel/Flyoobe/releases/latest).
+2. Extract the included `Actions` folder into Flyoobe's `Data` folder. The resulting path should look like `Data\Actions\<action-id>\action.ini`.
+3. Open **Settings > Advanced** in Flyoobe and enable **Setup Actions**.
 
-</details>
+The packages maintained for the optional asset live in [`Actions`](Actions). The complete authoring and safety guide is in [`docs/setup-actions.md`](docs/setup-actions.md).
 
----
+> [!CAUTION]
+> Setup Actions are PowerShell. Read an action before running it, especially when it requests administrator rights or downloads code. Flyoobe never runs an action merely because the package exists.
 
-## ❤️ Support Development
-If Flyby11 or FlyOOBE has helped you, consider supporting its continued development.  
-Every bit helps keep the project alive and improving. 🙏💌☕
+## Flyby11 and the old source
 
-👉 [**Donate here**](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG)
+Flyby11 remains in the repository because it is where this project began and because the classic upgrader still explains an important part of Flyoobe's history. It is now legacy software and is not actively maintained.
+
+The same applies to the previous Flyoobe implementation currently present in the source tree. It remains available during the transition, but new development targets the refactored Flyoobe 3 codebase. See [`docs/legacy.md`](docs/legacy.md) for the exact distinction.
+
+## A note about unsupported Windows upgrades
+
+Hardware-check workarounds do not turn unsupported hardware into supported hardware. Microsoft can change setup behavior or update eligibility, and newer Windows releases may introduce requirements that software cannot bypass. Keep backups and understand the trade-off before upgrading.
+
+## Support development
+
+Flyoobe is built independently and shared freely. If it saved you time—or saved a good PC from an unnecessarily early retirement—you can [support the project here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG).
+
+Thank you for testing, reporting the strange corners of Windows setup, and giving this little bee far more places to fly than I expected when Flyby11 began.
