@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/flyoobe-readme-banner.png" alt="Flyoobe: A better way to set up Windows">
-</p>
-
 # Flyoobe
 
 > [!CAUTION]
