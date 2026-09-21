@@ -4,20 +4,28 @@
 
 # Flyoobe
 
+> [!CAUTION]
+> **SECURITY ALERT: Fake websites and repositories are impersonating Flyoobe.**
+>
+> `flyoobe.com` and the GitHub account `github.com/flyoobe` are **not affiliated with this project**. Do not download Flyoobe from either location. Official releases are published only through [`github.com/builtbybel/Flyoobe`](https://github.com/builtbybel/Flyoobe/releases). Read the original community report in [Discussion #491](https://github.com/builtbybel/Flyoobe/discussions/491).
+
 **Flyoobe is a focused Windows setup companion for people who want to make deliberate choices instead of clicking through somebody else's defaults.**
 
 > [!IMPORTANT]
 > **Flyoobe 3 has begun rolling out, and the project has changed substantially.** The application was rebuilt around a smaller, cleaner core. The refactored 3.x source is still being prepared for publication, so the source currently visible in this repository represents the previous generation. It will be replaced as soon as the new structure is ready to be maintained in public, not merely uploaded in a hurry.
 
-[Download the latest release](https://github.com/builtbybel/Flyoobe/releases/latest) · [Read the changelog](CHANGELOG.md) · [Explore the documentation](docs/README.md)
+[Official downloads](#official-downloads) · [Read the changelog](CHANGELOG.md) · [Explore the documentation](docs/README.md)
 
-## Downloads: choose the tool, not the biggest name
+## Official downloads
+
+> [!TIP]
+> **Most people should choose Flyoobe 3.** It is the current generation and the version receiving active development. Older downloads remain available for specific legacy workflows.
 
 | Version | Best for | What you get | Download |
 |---|---|---|---|
-| **Flyoobe 3** (current) | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | [Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest) |
-| **Flyoobe 2.4** (previous) | Keeping the former all-in-one OOBE and upgrade toolbox | The previous Flyoobe application with its original customization, debloating and upgrade workflow | [Download Flyoobe 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/FlyoobeApp.zip) |
-| **Flyby11 Classic** (legacy) | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | [Download Flyby11 Classic 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip) |
+| **Flyoobe 3** (current) | Setting up Windows, reviewing defaults or combining setup with an upgrade | Setup overview, recommendations, apps and debloating, personalization, recipes, optional Setup Actions and the Windows upgrade path when appropriate | **[⬇️ Download the latest Flyoobe](https://github.com/builtbybel/Flyoobe/releases/latest)** |
+| **Flyoobe 2.4** (previous) | Keeping the former all-in-one OOBE and upgrade toolbox | The previous Flyoobe application with its original customization, debloating and upgrade workflow | **[⬇️ Download Flyoobe 2.4.854](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/FlyoobeApp.zip)** |
+| **Flyby11 Classic** (legacy) | Doing only the familiar Windows 10 → 11 in-place upgrade on unsupported hardware | The original focused upgrade workflow and hardware-check workaround, with a minimal footprint | **[⬇️ Download Flyby11 Classic](https://github.com/builtbybel/Flyoobe/releases/download/2.4.854/Flyby11-classic-deprecated.zip)** |
 
 Flyoobe 2.4 is the previous full application; Flyby11 Classic is the much smaller upgrade-only tool. Both remain available for people who deliberately need the old workflow, but neither represents active development. Use the current Flyoobe generation for the supported direction of the project and for anything beyond getting through the upgrade door.
 
@@ -87,8 +95,14 @@ The same applies to the previous Flyoobe implementation currently present in the
 
 Hardware-check workarounds do not turn unsupported hardware into supported hardware. Microsoft can change setup behavior or update eligibility, and newer Windows releases may introduce requirements that software cannot bypass. Keep backups and understand the trade-off before upgrading.
 
-## Support development
+---
 
-Flyoobe is built independently and shared freely. If it saved you time or saved a good PC from an unnecessarily early retirement, you can [support the project here](https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG).
+## Keep the bee flying 🐝
 
-Thank you for testing, reporting the strange corners of Windows setup, and giving this little bee far more places to fly than I expected when Flyby11 began.
+<p align="center">
+  <strong>Flyoobe is built independently and shared freely.</strong><br>
+  If it saved you time or kept a good PC useful for longer, you can help me continue developing it.<br><br>
+  <a href="https://www.paypal.com/donate?hosted_button_id=MY7HX4QLYR4KG"><strong>❤️ Support Flyoobe development</strong></a>
+</p>
+
+<p align="center"><em>Thank you for testing, reporting the strange corners of Windows setup, and giving this little bee far more places to fly than I expected when Flyby11 began.</em></p>
